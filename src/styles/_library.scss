@@ -1,0 +1,49 @@
+.library{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 20rem;
+    height: 100%;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    // box-shadow: 2px 2px 25px white;
+    overflow-y: scroll;
+    h2{
+        padding:1rem 0rem 0rem 2rem;
+    }
+}
+*::-webkit-scrollbar { 
+    width: 5px;
+   }
+ *::-webkit-scrollbar-track{
+     background: transparent;
+ }
+ *::-webkit-scrollbar-thumb{
+    background-color: rgba(197, 94, 94, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+.library-song{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:1rem 2rem 1rem 2rem;
+    
+    img{
+        width: 34%;
+        padding-bottom: 0.7rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+}
+.library-song:hover{
+    background-color: #6f0000;
+    cursor: pointer;
+}
