@@ -5,8 +5,7 @@ import { faPlay,faPause, faAngleLeft,faAngleRight } from "@fortawesome/free-soli
 
 
 
-const Player = ({ isPlaying, setIsPlaying, playingNow }) => {
-  const audioRef = useRef(null);
+const Player = ({ isPlaying, setIsPlaying,audioRef, playingNow }) => {
   const [songInfo,setSongInfo] = useState({
     currentTime:0,
     durationTime:0,
