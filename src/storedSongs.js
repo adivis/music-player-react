@@ -122,22 +122,48 @@ function Music(){
             active:false, 
 
         },
-        // {
-        //     name:"Pretty Savage",
-        //     song_img:"https://lh3.googleusercontent.com/ZKINUFCtfMUKB4CH4wJcQyHi6-bmuHz2exRBV6SORUd96KsC1jo2nrDImg2zlLnvHgJPGBxreYVjunGycg=w544-h544-l90-rj",
-        //     id:uuidv4(),
-        //     color:['#f4a1b6','#0E0404']
-        //     active:false, 
+        {
+            name:"Nadiyon Paar",
+            artist:"Shamur Ft Rashmeet Kaur ",
+            song_img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSapftHA698FbIDZZlW_QayfEy42JB-fEa3eicRHLTlY1XxPU-TtGEIdmWqXdYENFrpURc&usqp=CAU",
+            
+            audio:"https://mp3.filmisongs.com/Nadiyon%20Paar%20Song%20Roohi.mp3",
+            id:uuidv4(),
+            color:['#9F2B34','#B6C0CC'],
+            active:false, 
 
-        // },
-        // {
-        //     name:"Fire",
-        //     song_img:"https://lh3.googleusercontent.com/8-Of73mafCmlu7VrNAgprMWDeYcnps4wKJhbeVwm1D05JbzQF0KX8R4HR2M3kxdzvQi994vJXBensM69=w544-h544-l90-rj",
-        //     id:uuidv4(),
-        //     color:["#EDC31F","#F0F0F0"],
-        //     active:false, 
+        },
+        {
+            name:"Boyfriend",
+            artist:"Selena Gomez ",
+            song_img:"http://a10.gaanacdn.com/images/albums/19/3114919/crop_480x480_3114919.jpg",
+            
+            audio:"https://mp3.filmisongs.com/Boyfriend%20-%20Selena%20Gomez.mp3",
+            id:uuidv4(),
+            color:['#9F2B34','#B6C0CC'],
+            active:false, 
 
-        // },
+        }, {
+            name:"Look at her Now",
+            artist:"Selena Gomez ",
+            song_img:"https://i1.sndcdn.com/artworks-000661794634-2vk84j-t500x500.jpg",
+            
+            audio:"https://mp3.filmisongs.com/Look%20At%20Her%20Now%20Mp3%20Selena%20Gomez.mp3",
+            id:uuidv4(),
+            color:['#9F2B34','#B6C0CC'],
+            active:false, 
+
+        }, {
+            name:"We don't talk Anymore",
+            artist:"Charlie Puth, Selena Gomez ",
+            song_img:"https://m.media-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
+            
+            audio:"https://mp3.filmisongs.com/We%20Dont%20Talk%20Anymore%20-%20Charlie%20Puth,%20Selena%20Gomez.mp3",
+            id:uuidv4(),
+            color:['#9F2B34','#B6C0CC'],
+            active:false, 
+
+        },
     ];
 }
 export default Music;

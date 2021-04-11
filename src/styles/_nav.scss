@@ -1,0 +1,35 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+        transition: 0.5s;
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+    div{
+        display: flex;
+        align-items: center;
+        width: 15rem;
+        margin-top: 0.4rem;
+        justify-content: space-evenly;
+    }
+    button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        border: 2px solid rgb(228, 181, 181);
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+        color: white;
+        font-weight: bold;
+        &:hover{
+            background-color: white;
+            color: #642828;
+        }
+    }
+}

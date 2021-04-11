@@ -4,25 +4,41 @@ import Player from './components/Player';
 import './styles/App.scss';
 import LibrarayNav from './components/LibraryNav';
 import data from "./storedSongs";
+import Nav from './components/Nav'
+
 function App() {
-  
   const audioRef = useRef(null);
   const [songs, setSongs] = useState(data());
-  const [playingNow, setPlayingNow] = useState(songs[1]);
+  const [playingNow, setPlayingNow] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [libraryOpen, setLibraryOpen] = useState(false);
+  
   return (
     <div className="App">
-      <h1>Music Player </h1>
-      <Songs playingNow={playingNow}/>
+      <Nav
+       libraryOpen={libraryOpen}
+       setLibraryOpen={setLibraryOpen}
+        />
+      
+      <Songs playingNow={playingNow}
+      isPlaying={isPlaying}
+      />
       <Player 
       isPlaying={isPlaying}
+      songs={songs}
+      setPlayingNow={setPlayingNow}
       setIsPlaying = {setIsPlaying}
       audioRef={audioRef}
-      playingNow={playingNow}/>
+      playingNow={playingNow}
+      />
+
       <LibrarayNav songs={songs}
+      setSongs={setSongs}
       isPlaying={isPlaying}
       setIsPlaying={setIsPlaying}
-      audioRef={audioRef} setPlayingNow={setPlayingNow}  />
+      audioRef={audioRef} setPlayingNow={setPlayingNow}
+      libraryOpen={libraryOpen}
+        />
     </div>
   );
 }

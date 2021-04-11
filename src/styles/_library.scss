@@ -7,7 +7,10 @@
     background: #200122;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
+    
 
     // box-shadow: 2px 2px 25px white;
     overflow-y: scroll;
@@ -30,14 +33,20 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 1rem;
     padding:1rem 2rem 1rem 2rem;
     
     img{
         width: 34%;
         padding-bottom: 0.7rem;
+        
+            transition: 2s;
+           
+       
     }
     h3{
         font-size: 1rem;
+       
     }
     p{
         font-size: 0.7rem;
@@ -45,5 +54,24 @@
 }
 .library-song:hover{
     background-color: #6f0000;
+    color: inherit;
     cursor: pointer;
+    img{
+        transform: rotate(360deg);
+    }
+    h3{
+        font-size: 1.2rem;
+     }
+     p{
+        font-size: 1rem;
+    }
+}
+.selectedSong{
+    background-color: #dfc3c3;
+    h3,p{
+        color: rgb(134, 13, 70);}
+}
+.showLibrary{
+    transform: translateX(0%);
+    opacity: 1;
 }
