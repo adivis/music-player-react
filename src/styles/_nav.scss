@@ -17,7 +17,8 @@ nav{
         justify-content: space-evenly;
     }
     button{
-        background: transparent;
+        background: #672B2B;
+        position: relative;
         border: none;
         cursor: pointer;
         border: 2px solid rgb(228, 181, 181);
@@ -27,9 +28,49 @@ nav{
         padding: 0.7rem 1rem;
         color: white;
         font-weight: bold;
-        &:hover{
-            background-color: white;
-            color: #642828;
+        --border-size:2px;
+        // &:hover{
+        //     background-color: white;
+        //     color: #642828;
+            
+        // }
+        &:focus{
+            outline-style: none;
         }
     }
+    .slide::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: rgb(238, 165, 165);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 300ms ease-in-out;
+    }
+    .slide{
+        z-index: 1;
+        
+    }
+    .slide:hover::before,
+    .slide:focus::before{
+        transform: scaleX(1);
+        
+    }
+  
+}
+
+
+@media screen and(max-width:768px) {
+    nav{
+         img{
+        width: 20%;
+    }
+    button{
+        z-index: 10;
+    }
+}
 }

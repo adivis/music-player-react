@@ -10,9 +10,9 @@ const Nav=( {libraryOpen, setLibraryOpen})=> {
             <img src="images/logo.png" alt="logo"></img>
             <h1>SoundWave</h1>
             </div>
-            <button onClick={()=>{
+            <button className="slide" onClick={()=>{
                 setLibraryOpen(!libraryOpen)
-            }}>Library 
+            }}>Songs 
                 <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon>
             </button>
         </nav>

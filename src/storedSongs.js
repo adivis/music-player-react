@@ -8,7 +8,10 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Feel%20Me%20Mp3%20By%20Selena%20Gomez.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:[
+                "#e2d496",
+                "#6b9dcf"
+            ],
             active:true, 
 
         },
@@ -19,7 +22,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Dynamite%20-%20BTS.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#4ec969',
+            '#b326a0'],
             active:false, 
 
         },
@@ -30,7 +34,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Good%20Life%20-%20Kehlani%20Ft%20G%20Eazy.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#0847bb',
+            '#1cbcd1'],
             active:false, 
 
         },
@@ -41,7 +46,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Who%20-%20Lauv.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#1992d8',
+            '#C3031A'],
             active:false, 
 
         },
@@ -52,7 +58,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Dont%20Start%20Now%20-%20Dua%20Lipa.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#CA72D5',
+            '#FDFAC5'],
             active:false, 
 
         },
@@ -63,7 +70,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/ROSE%20-%20On%20The%20Ground.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#000000',
+            '#B83589'],
             active:false, 
 
         },
@@ -74,7 +82,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Har%20Funn%20Maula%20Song%20Koi%20Jaane%20Na.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#320836',
+            '#F4F2EC'],
             active:false, 
 
         },
@@ -85,7 +94,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Kiss%20and%20Make%20Up%20-%20Dua%20Lipa.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#000000',
+            '#E798A9'],
             active:false, 
 
         },
@@ -96,18 +106,20 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Ice%20Cream%20-%20BLACKPINK%20Ft%20Selena%20Gomez.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],//wrong
+            color:['#FED8DA',
+            '#F07B8E'],//wrong
             active:false, 
 
         },
         {
             name:"DDU DU DDU DU",
             artist:"BLACKPINK ",
-            song_img:"https://i.pinimg.com/564x/97/9d/75/979d75b714d38d3de8293735750f8c45.jpg",
+            song_img:"https://images-na.ssl-images-amazon.com/images/I/71n3Na-i6iL._SL1200_.jpg",
             
             audio:"https://mp3.filmisongs.com/DDU%20DU%20DDU%20DU%20-%20BLACKPINK.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#F38DD1',
+            '#501737'],
             active:false, 
 
         },
@@ -118,7 +130,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Lovesick%20Girls%20-%20BLACKPINK.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#000000',
+            '#EAA2B3'],
             active:false, 
 
         },
@@ -129,7 +142,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Nadiyon%20Paar%20Song%20Roohi.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#EBE2CB',
+            '#e7964b'],
             active:false, 
 
         },
@@ -140,7 +154,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Boyfriend%20-%20Selena%20Gomez.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#cc5862',
+            '#724f4f'],
             active:false, 
 
         }, {
@@ -150,7 +165,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/Look%20At%20Her%20Now%20Mp3%20Selena%20Gomez.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#BEADE4',
+            '#472946'],
             active:false, 
 
         }, {
@@ -160,7 +176,8 @@ function Music(){
             
             audio:"https://mp3.filmisongs.com/We%20Dont%20Talk%20Anymore%20-%20Charlie%20Puth,%20Selena%20Gomez.mp3",
             id:uuidv4(),
-            color:['#9F2B34','#B6C0CC'],
+            color:['#ccda51',
+            '#B6C0CC'],
             active:false, 
 
         },
