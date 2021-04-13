@@ -1,0 +1,61 @@
+.lyrics-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    details > summary {
+        list-style: none;
+      }
+    
+    summary{
+        cursor: pointer;
+        &:focus,
+        &:active{
+            outline: none;
+        }
+        position: relative;
+        background: #822727;
+        padding: 0.7rem 1rem;
+        color: white;
+        font-weight: bold;
+        border-radius: 0.3rem;
+        border: 2px solid rgb(228, 181, 181);
+    }
+    .lyrics{
+       
+        line-height: 150%;
+      
+    background-color: rgb(238, 165, 165);
+    }
+}
+.slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgb(238, 165, 165);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms ease-in-out;
+}
+.slide{
+    z-index: 1;
+    
+}
+.slide:hover,
+.slide:focus{
+    border-radius: 0px;
+    border: none;
+}
+.slide:hover::before,
+.slide:focus::before{
+    transform: scaleX(1);
+   
+    
+}
+

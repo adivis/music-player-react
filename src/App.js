@@ -4,7 +4,8 @@ import Player from './components/Player';
 import './styles/App.scss';
 import LibrarayNav from './components/LibraryNav';
 import data from "./storedSongs";
-import Nav from './components/Nav'
+import Nav from './components/Nav';
+import Lyrics from './components/Lyrics';
 
 function App() {
   const audioRef = useRef(null);
@@ -31,7 +32,9 @@ function App() {
       audioRef={audioRef}
       playingNow={playingNow}
       />
-
+      <Lyrics 
+      playingNow={playingNow}
+      />
       <LibrarayNav songs={songs}
       setSongs={setSongs}
       isPlaying={isPlaying}

@@ -55,8 +55,7 @@ nav{
         z-index: 1;
         
     }
-    .slide:hover::before,
-    .slide:focus::before{
+    .slide:hover::before{
         transform: scaleX(1);
         
     }

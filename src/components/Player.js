@@ -91,7 +91,7 @@ const Player = ({ isPlaying,songs, setPlayingNow, setIsPlaying,audioRef, playing
 
                     <input min={0} 
                     max={songInfo.durationTime || 0} 
-                    value={songInfo.currentTime} onChange={dragLineHandler}
+                    value={songInfo.currentTime} onChange={dragLineHandler} 
                     type="range"/>
                     <div style={trackPer} className="colored-track">
 
@@ -110,6 +110,7 @@ const Player = ({ isPlaying,songs, setPlayingNow, setIsPlaying,audioRef, playing
              <audio 
              onTimeUpdate={timeUpdateHandler}
              ref={audioRef} 
+             onKeyDown={()=>console.log("HYee")}
              onEnded={autoPlayHandler}
              src={playingNow.audio}></audio>
         </div>
