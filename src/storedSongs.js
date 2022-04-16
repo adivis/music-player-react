@@ -2,81 +2,49 @@ import {v4 as uuidv4} from "uuid";
 function Music(){
     return [
         {
-            name:"Feel Me",
+            name:"De Una Vez",
             artist:"Selena Gomez",
-            song_img:"https://i.pinimg.com/originals/ab/2b/7a/ab2b7a9b5215c60c753c134547169bba.jpg",
+            song_img:"https://media1.popsugar-assets.com/files/thumbor/Sr_vddLxKLticwBjMrZgbyVJPbo/365x0:1805x1440/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2021/01/15/765/n/1922564/adb0d41f6001cf3fc4f1b6.65673804_/i/selena-gomez-de-una-vez-music-video-dress.jpg",
             
-            audio:"https://mp3.filmisongs.com/Feel%20Me%20Mp3%20By%20Selena%20Gomez.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Selena Gomez - De Una Vez.mp3",
             id:uuidv4(),
             color:[
                 "#e2d496",
                 "#6b9dcf"
             ],
             active:true, 
-            lyrics:`No one love you like I love ya<br>
-            Never cheat, never lie<br>
-            Never put no one above ya<br>
-            I gave you space and time<br>
-            And now you're telling me you miss it<br>
-            And I'm still on your mind<br>
-            We were one in a million<br>
-            And love is hard to find<br>
-            Do you stay up late, just so you don't dream?<br>
-            Every time your lips touch another<br>
-            I want you to feel me<br>
-            I want you to feel me<br>
-            Every time you dance with somebody<br>
-            I want you to feel me<br>
-            I want you to feel me<br>
-            Do your days get a little bit longer?<br>
-            Nights get a little bit colder?<br>
-            Heartbeat a little bit louder?<br>
-            Hah ah ah ah oh (do you feel me?)<br>
-            Days get a little bit longer? (Feel me)<br>
-            Nights get a little bit colder? (Feel me)<br>
-            Heartbeat a little bit louder?<br>
-            Hah ah ah ah oh<br>
-            When you're running, who you run to?<br>
-            Where do you go to hide?<br>
-            When she ain't giving you enough to get you through the night<br>
-            Won't be caught up in the middle<br>
-            Of your highs and your lows<br>
-            Baby, 'long as you're not with me, you'll always be alone<br>
-            Do you stay up late, just so you don't dream?<br>
-            Every time your lips touch another<br>
-            I want you to feel me<br>
-            I want you to feel me<br>
-            Every time you dance with somebody<br>
-            I want you to feel me<br>
-            I want you to feel me<br>
-            Do your days get a little bit longer?<br>
-            Nights get a little bit colder?<br>
-            Heartbeat a little bit louder?<br>
-            Hah ah ah ah oh (do you feel me?)<br>
-            Days get a little bit longer? (Feel me)<br>
-            Nights get a little bit colder? (Feel me)<br>
-            Heartbeat a little bit louder?<br>
-            Hah ah ah ah oh<br>
-            Feel me (feel me)<br>
-            Feel me (feel me)<br>
-            Feel me (feel me)<br>
-            Every time your lips touch another<br>
-            I want you to feel me<br>
-            I want you to feel me<br>
-            Every time you dance with somebody<br>
-            I want you to feel me<br>
-            I want you to feel me<br>
-            Do your days get a little bit longer?<br>
-            Nights get a little bit colder?<br>
-            Heartbeat a little bit louder?<br>
-            Hah ah ah ah oh (do you feel me?)<br>
-            Days get a little bit longer? (Feel me)<br>
-            Nights get a little bit colder? (Feel me)<br>
-            Heartbeat a little bit louder?<br>
-            Hah ah ah ah oh<br>
-            Every time your lips touch another<br>
-            Hah ah ah ah oh<br>
-            Every time you dance with somebody`,
+            lyrics:`Ya no duele como antes, no,<br>
+            La herida de tu amor sanó<br>
+            
+            De una vez por todas<br>
+            Soy más fuerte sola<br>
+            Y es que no me arrepiento del pasado<br>
+            Sé que el tiempo a tu lado<br>
+            Cortó mis alas<br>
+            Pero ahora este pecho es antibalas<br>
+            
+            No te tengo a ti<br>
+            Me tengo a mí<br>
+            No es para que pienses que esto es pa’ ti, nah<br>
+            Yo me fui para que no se te olvide<br>
+            De una muerte como tú se revive<br>
+            
+            Cuando se seque el último mar<br>
+            Es cuando pensaré en regresar<br>
+            Está sobreentendido lo que siento<br>
+            Ya no estás, qué bueno es el tiempo<br>
+            Estoy curá’ de ti, te dije ya<br>
+            Ya no te siento, aquí no te siento ya<br>
+            Nunca supiste, no me supiste valorar<br>
+            
+            Y de una vez por todas<br>
+            Soy más fuerte sola<br>
+            Y es que no me arrepiento del pasado<br>
+            Sé que el tiempo a tu lado<br>
+            Cortó mis alas<br>
+            Pero ahora este pecho es antibalas<br>
+            
+            `,
 
         },
         {
@@ -84,7 +52,7 @@ function Music(){
             artist:"BTS",
             song_img:"https://i.pinimg.com/564x/c3/fb/86/c3fb86004b6af35034af98fbdbdbf436.jpg",
             
-            audio:"https://mp3.filmisongs.com/Dynamite%20-%20BTS.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Dynamite - BTS.mp3",
             id:uuidv4(),
             color:['#4ec969',
             '#b326a0'],
@@ -154,11 +122,11 @@ function Music(){
             So I'ma light it up like dynamite, whoa oh oh`
         },
         {
-            name:"Good Life",
-            artist:"Kehlani Ft G-Eazy",
-            song_img:"https://i1.sndcdn.com/artworks-000222322009-zgqj8b-t500x500.jpg",
+            name:"O.O",
+            artist:"NMIXX",
+            song_img:"https://pbs.twimg.com/media/FML_oC9aQAUwQEs.jpg",
             
-            audio:"https://mp3.filmisongs.com/Good%20Life%20-%20Kehlani%20Ft%20G%20Eazy.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=O O Song NMIXX.mp3&yt=3GWscde8rM8",
             id:uuidv4(),
             color:['#0847bb',
             '#1cbcd1'],
@@ -247,364 +215,432 @@ function Music(){
 
         },
         {
-            name:"Who",
-            artist:"Lauv Ft BTS",
-            song_img:"https://i.pinimg.com/originals/a0/2e/21/a02e211c21b89da7b2ab5133806103ba.jpg",
+            name:"I Like Me Better",
+            artist:"Lauv",
+            song_img:"https://images.genius.com/7914cb8fd663b4b50f81117fbd0616f2.500x500x1.jpg",
             
-            audio:"https://mp3.filmisongs.com/Who%20-%20Lauv.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=I Like Me Better - Lauv.mp3",
             id:uuidv4(),
             color:['#1992d8',
             '#C3031A'],
             active:false, 
-            lyrics:`Our minds have new eyes and visions of you<br>
-            Girl, I think I need a minute<br>
-            To figure out what is, what isn't<br>
-            These choices and voices, they're all in my head<br>
-            Sometimes you make me feel crazy<br>
-            Sometimes, I swear I think you hate me like uh<br>
-            I need a walk, I need a walk, I need to get out of here<br>
-            'Cause I need to know<br>
-            Who are you?<br>
-            'Cause you're not the girl I fell in love with, baby<br>
-            Who are you?<br>
-            'Cause something has changed, you're not the same, I hate it<br>
-            Oh, I'm sick of waiting for love, love<br>
-            Oh, I know that you're not the one, one<br>
-            Feeling hypnotized by the words that you said<br>
-            Don't lie to me, just get in my head<br>
-            When the morning comes, you're still in my bed<br>
-            But it's so, so cold<br>
-            Who are you?<br>
-            'Cause you're not the girl I fell in love with<br>
-            Who are you?<br>
-            'Cause you're not the girl I fell in love with, baby<br>
-            Who are you? (Who are you?)<br>
-            'Cause something has changed, you're not the same, I hate it<br>
-            Oh, I'm sick of waiting for love, love<br>
-            Oh, I know that you're not the one, one<br>`
+            lyrics:`To be young and in love in New York City (in New York City)<br>
+            To not know who I am but still know that I'm good long as you're here with me<br>
+            To be drunk and in love in New York City (in New York City)<br>
+            Midnight into morning coffee<br>
+            Burning through the hours talking<br>
+            Damn, I like me better when I'm with you<br>
+            I like me better when I'm with you<br>
+            I knew from the first time, I'd stay for a long time 'cause<br>
+            I like me better when<br>
+            I like me better when I'm with you<br>
+            I don't know what it is but I got that feeling (got that feeling)<br>
+            Waking up in this bed next to you swear the room<br>
+            Yeah, it got no ceiling<br>
+            If we lay, let the day just pass us by<br>
+            I might get to too much talking<br>
+            I might have to tell you something<br>
+            Damn, I like me better when I'm with you<br>
+            I like me better when I'm with you<br>
+            I knew from the first time, I'd stay for a long time 'cause<br>
+            I like me better when<br>
+            I like me better when I'm with you<br>
+            Stay awhile, stay awhile<br>
+            Stay here with me<br>
+            Stay awhile, stay awhile, oh<br>
+            Stay awhile, stay awhile<br>
+            Stay here with me<br>
+            Lay here with me, ayy-ayy, ayy-ayy, oh<br>
+            I like me better when I'm with you (yes, I do, yes, I do, babe)<br>
+            I like me better when I'm with you (ooh, no)<br>
+            I knew from the first time, I'd stay for a long time 'cause<br>
+            I like me better when<br>
+            I like me better when I'm with you<br>
+            Better when, I like me better when I'm with you<br>`
 
         },
         {
-            name:"I Got You Moonlight",
-            artist:"Dua Lipa ft Levitate ",
-            song_img:"https://images.genius.com/8d672758c88860eb45c68296daef9f9a.900x900x1.jpg",
+            name:"LaLisa",
+            artist:"Lisa ",
+            song_img:"https://i.scdn.co/image/ab67616d0000b273330f11fb125bb80b760f9e19",
             
-            audio:"https://mp3.filmisongs.com/Dont%20Start%20Now%20-%20Dua%20Lipa.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=BLACKPINK - LISA Mp3 Song Download.mp3",
             id:uuidv4(),
             color:['#CA72D5',
             '#FDFAC5'],
             active:false, 
-            lyrics:`Woo-hoo<br>
-            If you wanna run away with me, I know a galaxy<br>
-            And I can take you for a ride (for a ride)<br>
-            I had a premonition that we fell into a rhythm<br>
-            Where the music don't stop for life (for life)<br>
-            Glitter in the sky, glitter in my eyes<br>
-            Shining just the way I like (I like)<br>
-            If you're feeling like you need a little bit of company<br>
-            You met me at the perfect time<br>
-            You want me, I want you, baby<br>
-            My sugarboo, I'm levitating<br>
-            The Milky Way is liberating<br>
-            Yeah, yeah, yeah<br>
-            I got you, moonlight, you're my starlight<br>
-            I need you all night, come on, dance with me<br>
-            I got you, moonlight, you're my starlight (you're the moonlight)<br>
-            I need you all night, come on, dance with me (come and dance with me)<br>
-            I believe that you're for me, I feel it in our energy<br>
-            I see it written in the stars<br>
-            We can go wherever, so let's do it now or never<br>
-            Baby, nothing's ever, ever too far<br>
-            Glitter in the sky, glitter in our eyes<br>
-            Shining just the way we are<br>
-            I feel like we're forever every time we get together<br>
-            No, we're never gonna be apart<br>
-            You want me, I want you, baby<br>
-            My sugarboo, I'm levitating<br>
-            The Milky Way is liberating<br>
-            Yeah, yeah, yeah<br>
-            I got you, moonlight, you're my starlight<br>
-            I need you all night, come on, dance with me<br>
-            (Baby, won't you come and dance with me)<br>
-            I got you, moonlight, you're my starlight (you're the moonlight)<br>
-            I need you all night, come on, dance with me (come on, dance with me)<br>
-            You can fly away with me tonight<br>
-            You can fly away with me tonight<br>
-            Baby, let me take you for a ride (let me take you for a ride)<br>
-            You can fly away with me tonight<br>
-            You can fly away with me tonight<br>
-            Baby, let me take you for a ride (I can't stop it, baby)<br>
-            Let's go<br>
-            Boy, I'm advanced, got my real tight pants<br>
-            When I back it up, I put you in a trance (woo)<br>
-            If you wanna dance, then show me all your bands<br>
-            'Cause tonight, I might give you a chance (let's get it, skrrt)<br>
-            Pull up in the coupe<br>
-            Ooh, that dude, he look hella cute<br>
-            Yeah, he lookin' at me like, "Ooh"<br>
-            Suck my breasts like Betty Boop (woo)<br>
-            Oh, my, my, my (my, my)<br>
-            Get to stuttering like, "I-I-I" (I-I)<br>
-            I'm a freak, I like to play shy<br>
-            But I will get it poppin', anything, I'll try it<br>
-            Say I'm on his top five list<br>
-            On a Major Key like Khaled<br>
-            Don't speak, open up your eyelids<br>
-            I can be your girl if you keep it private<br>
-            You want me, I want you, baby<br>
-            My sugarboo, I'm levitating<br>
-            The Milky Way is liberating<br>
-            Yeah, yeah, yeah<br>
-            I got you, moonlight, you're my starlight<br>
-            I need you all night, come on, dance with me<br>
-            (Come and dance with me)<br>
-            You can fly away with me tonight<br>
-            You can fly away with me tonight<br>
-            Baby, let me take you for a ride<br>
-            (Come on, let me take you for a ride)<br>
-            You can fly away with me tonight<br>
-            You can fly away with me tonight<br>
-            Baby, let me take you for a ride<br>
-            (Come on, let me take you for a ride)<br>
-            I got you, moonlight, you're my starlight (you are my starlight)<br>
-            I need you all night, come on, dance with me (come on, dance with me)<br>
-            I got you, moonlight, you're my starlight (you're the moonlight)<br>
-            I need you all night, come on, dance with me<br>
-            I'm levitating<br>
-            Woo-hoo<br>
-            I'm levitating (woo)<br>
-            Come on, come on, come on, dance with me<br>
-            I'm levitating<br>
-            (Come on, let me take you for a ride)<br>
-            I'm levitating (woo)<br>
-            Come on, come on, come on, dance with me<br>
-            I'm levitating (woo-hoo)<br>
-            (I can't stop it baby, ah)`
-
-        },
-        {
-            name:"On The Ground",
-            artist:"ROSE ",
-            song_img:"https://i.pinimg.com/564x/35/6f/59/356f59b880a95adaea4cf8734a53231e.jpg",
-            
-            audio:"https://mp3.filmisongs.com/ROSE%20-%20On%20The%20Ground.mp3",
-            id:uuidv4(),
-            color:['#000000',
-            '#B83589'],
-            active:false, 
-            lyrics:`My life's been magic seems fantastic<br>
-            I used to have a hole in the wall with a mattress<br>
-            It's funny when you want it<br>
-            Suddenly you have it<br>
-            You find out that your gold's just plastic<br>
+            lyrics:`You know just by looking at my back When it gets<br>
+            dark, when a pink or<br>
+            pure white light wakes me<br>
+            up, it flashes and shakes the world (hey!)<br>
+            La, la-la-la, la, la-la-la<br>
+            La, la-la-la, la, la-la-la<br>
+            What's my name? What's my name? (Hey!)<br>
+            La, la-la-la, la, la-la-la<br>
+            La, la-la-la, la, la-la-la<br>
+            What's my name? What's my name?<br>
+            I want to burn<br>
+            the noisy emotions with your head white<br>
             <br>
-            Every day every night<br>
-            I've been thinking back on you and I<br>
-            Every day every night<br>
-            <br>
-            I worked my whole life<br>
-            Just to get right just to be like<br>
-            Look at me, I'm never coming down<br>
-            <br>
-            I worked my whole life<br>
-            Just to get high just to realize<br>
-            Everything I need is on the<br>
-            Everything I need is on the ground<br>
-            On the ground<br>
-            Everything I need is on the ground<br>
-            <br>
-            Nah but they don't hear me though<br>
-            (Yeah what goes up it must come down)<br>
-            Nah but they don't hear me though<br>
-            (You're running out of time)<br>
-            <br>
-            My world's been hectic seems electric<br>
-            But I've been waking up with your voice in my head<br>
-            And I'm trying to send a message<br>
-            And let you know that every single minute<br>
-            I'm without you, I regret it<br>
-            <br>
-            Every day every night<br>
-            I've been thinking back on you and I<br>
-            Every day every night<br>
-            <br>
-            I worked my whole life<br>
-            Just to get right just to be like<br>
-            Look at me, I'm never coming down<br>
-            I worked my whole life<br>
-            Just to get high just to realize<br>
-            Everything I need is on the<br>
-            Everything I need is on the ground<br>
-            On the ground<br>
-            Everything I need is on the ground<br>
-            <br>
-            Nah but they don't hear me though<br>
-            (Yeah what goes up it must come down)<br>
-            Nah but they don't hear me though<br>
-            (You're running out of time)<br>
-            <br>
-            I'm way up in the clouds<br>
-            And they say I've made it now<br>
-            But I figured it out<br>
-            Everything I need is on the ground<br>
-            <br>
-            Just drove by your house<br>
-            So far from you now<br>
-            But I figured it out<br>
-            Everything I need is on the<br>
-            Everything I need is on the ground<br>
-            On the ground<br>
-            Everything I need is on the ground<br><br>
-            Nah but they don't hear me though<br><br>
-            <br><br>
-            On the ground<br><br>
-            Nah but they don't hear me though<br><br>
-            Everything I need is on the ground`
-
-        },
-        {
-            name:"Har Funn Maula",
-            artist:"Zara Khan",
-            song_img:"https://lh3.googleusercontent.com/-mG3Pbou6P24/YEnE_N1dZvI/AAAAAAAAByI/RP1KDE9-0lwDs_NYBCrHt2sPYCOACJ35ACNcBGAsYHQ/Har-Funn-Maula-Status.jpg",
-            
-            audio:"https://mp3.filmisongs.com/Har%20Funn%20Maula%20Song%20Koi%20Jaane%20Na.mp3",
-            id:uuidv4(),
-            color:['#320836',
-            '#F4F2EC'],
-            active:false, 
-            lyrics:`Haadson Ke Is Shehar Mein<br>
-            Aaj Koyi Aayega<br>
-            Khol Dega Raaz Ya Phir<br>
-            Raaz Khud Ban Jayega<br>
-            <br>
-            Raat Ki Aagosh Mein Ye<br>
-            Raaz Rehne Dijiye<br>
-            Kijiyega Kal Khulasa<br>
-            Aaj Rehne Dijiye<br>
-            <br>
-            Hai Koyi Parwana Yahan<br>
-            Jo Jaan Pe Apni Khelega<br>
-            Aashiqui Mein Hoke Fanna<br>
-            Baahon Mein Shama Ko Le Lega<br>
-            <br>
-            Itni Haseeno Pe<br>
-            Kitni Dafa Ye Dola<br>
-            Phir Bhi Fakeero Ka<br>
-            Pehne Hue Hai Chola<br>
-            <br>
-            Itar Ki Sheeshi Hai<br>
-            Jahan Bhi Khul Jaaye<br>
-            Hawa Mein Ghool Jaaye<br>
-            Dil Jogi Da Har Funn Maula<br>
-            <br>
-            Aaye Toh Kayi Karne Idhar<br>
-            Dil-E-Bekarar Ki Dawa<br>
-            Shab Se Shehar Hote Hi Magar<br>
-            Baari Baari Saare Ho Gaye Hawa<br>
-            <br>
-            Shab Ke Andhere Mein<br>
-            Jannat Dikhane Wala<br>
-            Main Toh Sawere Bhi<br>
-            Dil Na Dukhane Wala<br>
-            <br>
-            Ye Meri Baahon Mein<br>
-            Raat Jo Guzre Wo<br>
-            Umar Bhar Jaisi Hai<br>
-            Dil Jogi Da Har Funn Maula<br>
-            <br>
-            Har Funn Maula<br>
+            Sip, sip, drink me in.<br>
+            Yeah, hold my body higher and higher. Let the world know,<br>
+            you want to ring the alarm , kiss my name<br>
+            Say, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Call me, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Oh-ooh, 알잖아 attitude<br>
+            뭘 더 어쩌라구? The loudest in the room (hoo! hoo!)<br>
+            Just say, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Call me, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Oh-ooh, 알잖아 attitude<br><br>
+            뭘 더 어쩌라구? The loudest in the room (hoo!)<br><br>
+            Baby, get the megaphone, put it on speaker<br><br>
+            I said I can't hear you, so you need to speak up<br><br>
+            Put that shit on stereo, everyone else on very low<br><br>
+            Protect it like a barrier, promise there's nothing scarier<br><br>
+            Than me, if anybody coming gunnin' for my man<br><br>
+            Gonna catch a case, gun up in my hand<br><br>
+            Bam-bam-bam, hit after hit though<br><br>
+            Rocks in my wrist, so I call 'em the Flintstones<br><br>
+            Ring the alarm let the<br><br>
+            world know, kiss my name<br><br>
+            Say, "Lalisa, love me, Lalisa, love me" (hey!)<br><br>
+            Call me, "Lalisa, love me, Lalisa, love me" (hey!)<br><br>
+            Oh-ooh, 알잖아 attitude<br><br>
+            뭘 더 어쩌라구? The loudest in the room (hoo! hoo!)<br><br>
+            Just say, "Lalisa, love me, Lalisa, love me" (hey!)<br><br>
+            Call me, "Lalisa, love me, Lalisa, love me" (hey!)<br><br>
+            Oh-ooh, 알잖아 attitude<br><br>
+            뭘 더 어쩌라구? The loudest in the room (hoo!)<br>
+            Can't compare with anyone, even if it were, you gon' still love me<br>
+            You need some<br>
+            LALISA<br>
+            You cannot see me, even if I show you everything (no)<br>
+            From Thailand to Korea and here I went for the throat (the throat)<br>
+            Being the greatest of all time ain't fantasy (whoo)<br>
+            The black pink crown belongs to we (BLACKPINK)<br>
+            Lalisa, Lalisa, Lalisa, high in the sky<br>
+            Lalisa, Lalisa, Lalisa, they want me<br>
+            Lalisa, Lalisa, Lalisa, catch me if you can<br>
+            Lalisa, Lalisa, Lalisa, Lalisa, Lalisa<br>
+            Say, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Call me, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Oh-ooh, 알잖아 attitude<br>
+            뭘 더 어쩌라구? The loudest in the room (hoo! hoo!)<br>
+            Just say, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Call me, "Lalisa, love me, Lalisa, love me" (hey!)<br>
+            Oh-ooh, 알잖아 attitude<br>
+            뭘 더 어쩌라구? The loudest in the room (hoo!)<br>
             `
 
         },
         {
-            name:"Kiss and Make Up",
-            artist:"Dua Lipa ",
-            song_img:"https://i.pinimg.com/564x/60/0b/c1/600bc187910952f83ce40ea9237f1895.jpg",
+            name:"Savage ",
+            artist:"Aespa ",
+            song_img:"https://rollingstoneindia.com/wp-content/uploads/2021/10/aespa-scaled.jpg",
             
-            audio:"https://mp3.filmisongs.com/Kiss%20and%20Make%20Up%20-%20Dua%20Lipa.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Savage Song Download Mp3 aespa.mp3",
+            id:uuidv4(),
+            color:['#000000',
+            '#B83589'],
+            active:false, 
+            lyrics:`Oh my gosh!<br>
+            Don’t you know I’m a Savage?<br>
+            I’m a Killa neoreul kkael ae<br>
+            ajikdo garigo hwangageul pyeolchin neo<br>
+            paella We Holler<br>
+            duryeopji ana neo neo Hit you harder<br>
+            
+            nal mireo neoeo Deep fake on me<br>
+            junbiga andoen mudaero<br>
+            moraneoeo Fake on me<br>
+            Got everybody mock up to me<br>
+            suchireul neukkige mentareul heundeureonwa<br>
+            ssaneulhan gwanjung muneojyeo ae<br>
+            deoneun neol mot chama Say No!
+            <br>
+            dugo bwa nan jom Savage<br>
+            neoui Dirty han Play<br>
+            deoneun dugo bol su eopseo<br>
+            nareul muneotteurigo sipeun<br>
+            ne hwangakdeuri jeomjeom<br>
+            neoreul guchukal iyuga dwae<br>
+            I’m a Savage<br>
+            neol busyeo kkae julge Oh<br>
+            I’m a Savage<br>
+            neol jitbalba julge Oh<br>
+            
+            Get me get me now<br>
+            Get me get me now<br>
+            (Zu Zu Zu Zu)<br>
+            jigeum nareul jaba<br>
+            anim nan deo Savage<br>
+            (Zu Zu Zu Zu)<br>
+            Get me get me now<br>
+            Get me get me now<br>
+            (Zu Zu Zu Zu)<br>
+            ijen naega neoreul jaba<br>
+            Now I’m a Savage<br>
+            Gimme gimme now<br>
+            Gimme gimme now<br>
+            (Zu Zu Zu Zu)<br>
+            neoui mari boyeo<br>
+            ne yakjeom Algorithm<br>
+            (Zu Zu Zu Zu)<br>
+            gimi gimi na<br>
+            gimi gimi na<br>
+            (Zu Zu Zu Zu)<br>
+            MA ae SYNK banghae malgo<br>
+            kkeojyeo Savage<br>
+            (Zu Zu Zu Zu)<br>
+            
+            Mmmh Everybody looks at me<br>
+            iksukajanni<br>
+            yangbohae chamayaman dwae<br>
+            eoreunseureopge<br>
+            I’m locked up in the glass<br>
+            nan nolgo sipeunde<br>
+            neomu kkeumjjikan gidae<br>
+            geureon hwangak teure nareul gadwo nwa<br>
+            
+            I’m going gwangyaro Game in<br>
+            mullichyeo gyomyohan iganjil<br>
+            And my aerobuteo<br>
+            meoreojige mandeul<br>
+            hoesimchan ne Trick<br>
+            We gone gwangyaro Game in<br>
+            beeobeoryeo nae bichui geom<br>
+            demijireul ibeun nege<br>
+            injeongsajeong bol geot eomneun peonchi
+            <br>
+            geugeot bwa nan jom Savage<br>
+            neoui jaesaengnyeogeul maga<br>
+            heuteureonwa ppaenwa<br>
+            itji mara yeogin baro gwangya<br>
+            neoui sigongganeun nae tteutdaero<br>
+            Make It break it<br>
+            I’m a Savage<br>
+            neol busyeo kkae julge Oh<br>
+            I’m a Savage<br>
+            neol jitbalba julge Oh<br>
+            
+            Get me get me now<br>
+            Get me get me now<br>
+            (Zu Zu Zu Zu)<br>
+            jigeum nareul jaba<br>
+            anim nan deo Savage<br>
+            (Zu Zu Zu Zu)<br>
+            Get me get me now<br>
+            Get me get me now<br>
+            (Zu Zu Zu Zu)<br>
+            ijen naega neoreul jaba<br>
+            Now I’m a Savage<br>
+            Gimme gimme now<br>
+            Gimme gimme now<br>
+            (Zu Zu Zu Zu)<br>
+            neoui mari boyeo<br>
+            ne yakjeom Algorithm<br>
+            (Zu Zu Zu Zu)<br>
+            gimi gimi na<br>
+            gimi gimi na<br>
+            (Zu Zu Zu Zu)<br>
+            MA ae SYNK banghae malgo<br>
+            kkeojyeo Savage<br>
+            (Zu Zu Zu Zu)<br>
+            
+            wigie ppajin nal jikyeojun geon neoyeosseo<br>
+            My naevis we love U<br>
+            My victory hanaui SYNK DIVE<br>
+            modu nega mandeureojun gihoeran geo<br>
+            I know your sacrifices Oh<br>
+            My naevis we love U<br>
+            ara urin bandeusi<br>
+            ne gieokdeureul chajajulge<br>
+            urin manna kkok buhwal geudaeum<br>
+            
+            Savage<br>
+            Savage<br>
+            Yeah~<br>
+            
+            Get me get me now<br>
+            Get me get me now<br>
+            (Zu Zu Zu Zu)<br>
+            jigeum nareul jaba<br>
+            anim nan deo Savage<br>
+            (Zu Zu Zu Zu)<br>
+            Get me get me now<br>
+            Get me get me now<br>
+            (Zu Zu Zu Zu)<br>
+            ijen naega neoreul jaba<br>
+            Now I’m a Savage<br>
+            Gimme gimme now<br>
+            Gimme gimme now<br>
+            (Zu Zu Zu Zu)<br>
+            neoui mari boyeo<br>
+            ne yakjeom Algorithm<br>
+            (Zu Zu Zu Zu)<br>
+            gimi gimi na<br>
+            gimi gimi na<br>
+            (Zu Zu Zu Zu)<br>
+            MA ae SYNK banghae malgo<br>
+            kkeojyeo Savage<br>
+            (Zu Zu Zu Zu)<br>
+            
+            Ha ha, What?<br>
+            
+            `
+
+        },
+        {
+            name:"Señorita",
+            artist:"Camila Cabello And Shawn Mendes",
+            song_img:"https://upload.wikimedia.org/wikipedia/commons/8/8d/Shawn_Mendes_and_Camila_Cabello_-_Se%C3%B1orita.png",
+            
+            audio:"https://mp3.filmisongs.com/go.php?id=Senorita Mp3 By Camila Cabello and Shawn Mendes.mp3",
+            id:uuidv4(),
+            color:['#320836',
+            '#F4F2EC'],
+            active:false, 
+            lyrics:`I love it when you call me señorita<br>
+            I wish I could pretend I didn’t need ya<br>
+            But every touch is ooh la la la<br>
+            It’s true, la la la<br>
+            Ooh, I should be running<br>
+            Ooh, you keep me coming for you
+            <br>
+            Land in Miami<br>
+            The air was hot from summer rain<br>
+            Sweat dripping off me<br>
+            Before I even knew her name, la la la<br>
+            It felt like ooh la la la<br>
+            Yeah no<br>
+            Sapphire moonlight<br>
+            We danced for hours in the sand<br>
+            Tequila sunrise<br>
+            Her body fit right in my hands, la la la<br>
+            It felt like ooh la la la, yeah<br>
+            
+            I love it when you call me señorita<br>
+            I wish I could pretend I didn’t need you<br>
+            But every touch is ooh la la la<br>
+            It’s true, la la la<br>
+            Ooh, I should be running<br>
+            Ooh, you know I love it when you call me señorita<br>
+            I wish it wasn’t so damn hard to leave you<br>
+            But every touch is ooh la la la<br>
+            It’s true, la la la<br>
+            Ooh, I should be running<br>
+            Ooh, you keep me coming for ya<br>
+            
+            Locked in the hotel<br>
+            There’s just some things that never change<br>
+            You say we’re just friends<br>
+            But friends don’t know the way you taste, la la la<br>
+            ‘Cause you know it’s been a long time coming<br>
+            Don’t you let me fall<br>
+            
+            Ooh, when your lips undress me<br>
+            Hooked on your tongue<br>
+            Ooh love, your kiss is deadly<br>
+            Don’t stop
+            <br>
+            I love it when you call me señorita<br>
+            I wish I could pretend I didn’t need you<br>
+            But every touch is ooh la la la<br>
+            It’s true, la la la<br>
+            Ooh, I should be running<br>
+            Ooh, you know I love it when you call me señorita<br>
+            I wish it wasn’t so damn hard to leave ya<br>
+            But every touch is ooh la la la<br>
+            It’s true, la la la<br>
+            Ooh, I should be running<br>
+            Ooh, you keep me coming for you<br>
+            All along I’ve been coming for you<br>
+            And I hope it meant something to you<br>
+            Call my name, I’ll be coming for you<br>
+            Coming for you, coming for you, coming for you<br>
+            
+            For you (ooh, she loves it when I come)<br>
+            For you<br>
+            
+            Ooh, I should be running<br>
+            Ooh, you keep me coming for you<br>
+            `
+
+        },
+        {
+            name:"Stay",
+            artist:"Justin Bieber, The Kid LAROI ",
+            song_img:"https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png/220px-The_Kid_Laroi_and_Justin_Bieber_-_Stay.png",
+            
+            audio:"https://mp3.filmisongs.com/go.php?id=Stay Song Download Mp3 Justin Bieber Ft The Kid LAROI.mp3",
             id:uuidv4(),
             color:['#000000',
             '#E798A9'],
             active:false, 
 
-            lyrics:`We haven't talked all morning<br>
-            Bang my head, bang my head against the wall<br>
-            I'm scared, I'm falling<br>
-            Losing all, losing all my control<br>
-            And I'm tired of talking<br>
-            Feel myself saying the same old things<br>
-            But this love's important<br>
-            Don't wanna lose, don't wanna lose you this way<br>
-            I, I, I, I, I, I, I, I, I<br>
-            Feel like we about to break up<br>
-            I, I, I, I, I, I, I, I, I<br>
-            Just wanna kiss and make up one last time<br>
-            Touch me like you touch nobody<br>
-            Put your hands all up on me<br>
-            Tired of hearing sorry<br>
-            Kiss and make, kiss, kiss and make up<br>
-            How about we leave this party?<br>
-            'Cause all I want is you up on me<br>
-            Tired of hearing sorry<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            아직도 너를<br>
-            못 떠나고 뭘 하고 있는 건지<br>
-            언젠간은 끝날 걸<br>
-            떠날 걸 알고 있지만
-            고장난 우릴<br>
-            다시 고쳐볼 수는 없을 지<br>
-            아무런 말도 하지마<br>
-            마지막은 없어<br>
-            I, I, I, I, I, I, I, I, I<br>
-            Feel like we about to break up<br>
-            I, I, I, I, I, I, I, I, I<br>
-            Just wanna kiss and make up one last time<br>
-            Touch me like you touch nobody<br>
-            Put your hands all up on me<br>
-            Tired of hearing sorry<br>
-            Kiss and make, kiss, kiss and make up<br>
-            How about we leave this party?<br>
-            'Cause all I want is you up on me<br>
-            Tired of hearing sorry<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            그게 뭐가 되었건 다 필요 없어 너면 됐어<br>
-            So tell me, can we work this whole thing out?<br>
-            Work this whole thing out<br>
-            날 처음 만났던 설레던 순간 그때처럼<br>
-            So tell me, can we work this whole thing out?<br>
-            Work this whole thing out<br>
-            Kiss, kiss and make up<br>
-            Touch me like you touch nobody<br>
-            Put your hands all up on me<br>
-            Tired of hearing sorry<br>
-            Kiss and make, kiss, kiss and make up<br>
-            How about we leave this party?<br>
-            'Cause all I want is you up on me<br>
-            Tired of hearing sorry<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up<br>
-            Kiss, kiss and make up<br>
-            Kiss and make, kiss, kiss and make up`
+            lyrics:`[Chorus: The Kid LAROI]<br>
+            I do the same thing I told you that I never would<br>
+            I told you I’d change, even when I knew I never could<br>
+            I know that I can’t find nobody else as good as you<br>
+            I need you to stay, need you to stay, hey (Oh)<br><br>
+            
+            [Verse 1: The Kid LAROI]<br>
+            I get drunk, wake up, I’m wasted still<br>
+            I realize the time that I wasted here<br>
+            I feel like you can’t feel the way I feel<br>
+            Oh, I’ll be fucked up if you can’t be right here<br>
+            
+            [Pre-Chorus: The Kid LAROI]<br>
+            Oh, ooh-woah (Oh, ooh-woah, ooh-woah)<br>
+            Oh, ooh-woah (Oh, ooh-woah, ooh-woah)<br>
+            Oh, ooh-woah (Oh, ooh-woah, ooh-woah)<br>
+            Oh, I’ll be fucked up if you can’t be right here<br>
+            
+            [Chorus: The Kid LAROI]<br>
+            I do the same thing I told you that I never would<br>
+            I told you I’d change, even when I knew I never could<br>
+            I know that I can’t find nobody else as good as you<br>
+            I need you to stay, need you to stay, hey<br>
+            I do the same thing I told you that I never would<br>
+            I told you I’d change, even when I knew I never could<br>
+            I know that I can’t find nobody else as good as you<br>
+            I need you to stay, need you to stay, hey<br>
+            [Verse 2: Justin Bieber]<br>
+            When I’m away from you, I miss your touch (Ooh)<br>
+            You’re the reason I believe in love (Ooh)<br>
+            It’s been difficult for me to trust (Ooh)<br>
+            And I’m afraid that I’ma fuck it up (Ooh)<br>
+            Ain’t no way that I can leave you stranded<br>
+            ‘Cause you ain’t ever left me empty-handed<br>
+            And you know that I know that I can’t live without you<br>
+            So, baby, stay<br>
+            <br>
+            [Pre-Chorus: Justin Bieber, The Kid LAROI, Both]<br>
+            Oh, ooh-woah (Oh, ooh-woah, ooh-woah)<br>
+            Oh, ooh-woah (Oh, ooh-woah, ooh-woah)<br>
+            Oh, ooh-woah (Oh, ooh-woah, ooh-woah)<br>
+            I’ll be fucked up if you can’t be right here<br>
+            
+            [Chorus: The Kid LAROI with Justin Bieber]<br>
+            I do the same thing I told you that I never would<br>
+            I told you I’d change, even when I knew I never could<br>
+            I know that I can’t find nobody else as good as you<br>
+            I need you to stay, need you to stay, hey<br>
+            I do the same thing I told you that I never would<br>
+            I told you I’d change, even when I knew I never could<br>
+            I know that I can’t find nobody else as good as you<br>
+            I need you to stay, need you to stay, hey<br>
+            <br>
+            [Outro: The Kid LAROI, Justin Bieber]<br>
+            Woah-oh<br>
+            I need you to stay, need you to stay, hey<br>`
         },
         {
             name:"Ice Cream",
             artist:"BLACKPINK Ft Selena Gomez ",
             song_img:"https://i.pinimg.com/564x/6b/b2/ee/6bb2ee8d152ae868157c487cf7d73395.jpg",
             
-            audio:"https://mp3.filmisongs.com/Ice%20Cream%20-%20BLACKPINK%20Ft%20Selena%20Gomez.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Ice Cream - BLACKPINK Ft Selena Gomez.mp3",
             id:uuidv4(),
             color:['#FED8DA',
             '#F07B8E'],//wrong
@@ -694,7 +730,7 @@ function Music(){
             artist:"BLACKPINK ",
             song_img:"https://images-na.ssl-images-amazon.com/images/I/71n3Na-i6iL._SL1200_.jpg",
             
-            audio:"https://mp3.filmisongs.com/DDU%20DU%20DDU%20DU%20-%20BLACKPINK.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=DDU DU DDU DU - BLACKPINK.mp3",
             id:uuidv4(),
             color:['#F38DD1',
             '#501737'],
@@ -788,85 +824,76 @@ function Music(){
 
         },
         {
-            name:"Lovesick Girls",
-            artist:"BLACKPINK ",
-            song_img:"https://upload.wikimedia.org/wikipedia/en/3/3e/Blackpink_-_Lovesick_Girls.png",
+            name:"Haan Main Galat",
+            artist:"Arijit Singh",
+            song_img:"https://i.scdn.co/image/ab67616d0000b273f227137db875c5581f064a8a",
             
-            audio:"https://mp3.filmisongs.com/Lovesick%20Girls%20-%20BLACKPINK.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Haan Main Galat Mp3 Song From Love Aaj Kal Movie.mp3",
             id:uuidv4(),
             color:['#000000',
             '#EAA2B3'],
             active:false, 
-            lyrics:`Another night<br>
-            Trapped within a windowless apartment, love<br>
-            What can we say<br>
-            Though it hurts, we're still blinded by love<br>
+            lyrics:`Han Main Galat<br>
+            Galat Meri Baatein<br>
+            Galat Hi Shahi
             <br>
-            Although I bleed and I break down<br>
-            Don't know what's making me hold out<br>
-            If I leave anyway, hating you every day<br>
-            Don't matter when you're close<br>
-            <br>
-            This ain't over till it's over believe me<br>
-            It's as if we're just waiting for agony<br>
-            <br>
-            And maybe it's all just for a moment<br>
-            Without direction, tell me what you wanna see<br>
-            But I don't care, I'll do it over and over<br>
-            No in this life, I just need you here with me<br>
-            <br>
-            We are the lovesick girls<br>
-            Do what you want but you can't end this love alone<br>
-            We are the lovesick girls<br>
-            You're like a drug, I need the pain of needing you the most<br>
-            <br>
-            But we were born to be alone<br>
-            Yeah, we were born to be alone<br>
-            Yeah, we were born to be alone<br>
-            But why we still looking for love?<br>
-            <br>
-            No love letters, no X and Os<br>
-            No love, never, my exes know<br>
-            No diamond rings that set in stone<br>
-            To the left, better left alone<br>
-            Didn't wanna be a princess, I'm priceless<br>
-            A prince not even on my list<br>
-            Love is a drug that I quit<br>
-            No doctor can help when I'm lovesick<br>
-            <br>
-            And maybe it's all just for the moment<br>
-            We're without direction, tell me what you want from me<br>
-            But in your eyes I see the end getting closer<br>
-            Even with the pain I just need you here with me<br>
-            <br>
-            We are the lovesick girls<br>
-            Do what you want but you can't end this love alone<br>
-            We are the lovesick girls<br>
-            You're like a drug, I need the pain of needing you the most<br>
-            <br>
-            But we were born to be alone<br>
-            Yeah, we were born to be alone<br>
-            Yeah, we were born to be alone<br>
-            But why we still looking for love?<br>
-            <br>
-            Love is slipping and falling<br>
-            Love is killing us darling<br>
-            Feel the thrill dissipating<br>
-            Leaving us lost now, look at us bleeding<br>
-            Can't really hear what you say<br>
-            Loving the pain, oh honey<br>
-            Hate to break it to you baby<br>
-            Feeling bad for you looking down on me<br>
-            <br>
-            We are the lovesick girls<br>
-            Do what you want but you can't end this love alone<br>
-            We are the lovesick girls<br>
-            You're like a drug, I need the pain of needing you the most<br>
-            <br>
-            Lovesick girls (we watch them as they leave and)<br>
-            Lovesick girls (we're numb from all the crying)<br>
-            Lovesick girls (we do it over again)<br>
-            Lovesick girls (but we're still looking for love)`
+            Duniya Bani<br>
+            Poora Shahi Koyi Nahi Hai<br>
+            Le Le Meri Chetavni, Ho O Ho<br>
+            
+            Dil Mein Jo Aye, Ho O Ho<br>
+            Aaj Ho Jaye, Ho O Ho<br>
+            Dil Mein Jo Aaye, Ho O Ho<br>
+            Aj Ho Jaaye<br>
+            
+            Aaj Stage Laga Hai<br>
+            Badi Jagah Hai<br>
+            Do It With A Twist<br>
+            
+            Twist…<br>
+            
+            Han Main Galt<br>
+            Glat Hoja Tu Bhi<br>
+            Aaja Karein Galti Nayi<br>
+            Dar Ke Shahi Hua Kaha Koyi<br>
+            Darte Rahein Pehle Kayi, Ho O Ho<br>
+            
+            Aasmaan Tute, Ho O Ho<br>
+            Ye Jahan Roothe, Ho O Ho<br>
+            Aasmaan Tute, Ho O Ho<br>
+            Ye Jahan Rooothe<br>
+            
+            Aaj Stage Laga Hai<br>
+            Badi Jagah Hai<br>
+            Do It With A Twist<br>
+            
+            Twist…<br>
+            
+            Ho Mera Apna Charater Teri Apni Ada<br>
+            Tootenge, Bikharnge, Behkenge, Sambhlenge<br>
+            Dono Dil Ke Uss Maamle Mein<br>
+            Uss Maamle Mein Na Akal Ko Laga<br>
+            Aklon Mein Uljhenge Toh Fislenge Dono<br>
+            
+            Ho Mera Apna Charater Teri Apni Ada<br>
+            Tootenge, Bikharnge, Behkenge, Sambhlenge<br>
+            Dono Dil Ke Uss Maamle Mein<br>
+            Uss Maamle Mein Na Akal Ko Laga<br>
+            Aklon Mein Uljhenge Toh Fislenge Dono<br>
+            Ho O Ho<br>
+            
+            Dil Mein Jo Aaye, Ho O Ho<br>
+            Aaj Ho Jaaye, Ho O Ho<br>
+            Dil Mein Jo Aaye, Ho O Ho<br>
+            Aaj Ho Jaaye<br>
+            
+            Aaj Stage Laga Hai<br>
+            Badi Jagah Hai<br>
+            Do It With A Twist<br>
+            
+            Twist…
+            
+            <br>`
 
         },
         {
@@ -874,7 +901,7 @@ function Music(){
             artist:"Shamur Ft Rashmeet Kaur ",
             song_img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSapftHA698FbIDZZlW_QayfEy42JB-fEa3eicRHLTlY1XxPU-TtGEIdmWqXdYENFrpURc&usqp=CAU",
             
-            audio:"https://mp3.filmisongs.com/Nadiyon%20Paar%20Song%20Roohi.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Nadiyon Paar Song Roohi.mp3",
             id:uuidv4(),
             color:['#EBE2CB',
             '#e7964b'],
@@ -961,178 +988,153 @@ function Music(){
 
         },
         {
-            name:"Boyfriend",
-            artist:"Selena Gomez ",
-            song_img:"http://a10.gaanacdn.com/images/albums/19/3114919/crop_480x480_3114919.jpg",
+            name:"Shayad ",
+            artist:"Arijit Singh",
+            song_img:"https://i.scdn.co/image/ab67616d0000b273c51066dc572e8942e5ef1f44",
             
-            audio:"https://mp3.filmisongs.com/Boyfriend%20-%20Selena%20Gomez.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Shayad Mp3 Song From Love Aaj Kal Movie.mp3",
             id:uuidv4(),
             color:['#cc5862',
             '#724f4f'],
             active:false, 
-            lyrics:`I want a boyfriend<br>
-            But I just keep hitting dead ends<br>
-            Try to take a shortcut<br>
-            But I get cut again and again<br>
-            I want a boyfriend<br>
-            Tell me, are there any good ones left?<br>
-            I keep finding wrong ones<br>
-            But I want love again and again<br>
-            I want a boyfriend<br>
-            I been up all night<br>
-            Pretty restlessly<br>
-            Think I might know why (Ah)<br>
-            I've been doing just fine<br>
-            But baby, that don't mean<br>
-            That I'm feeling anti you and me<br>
-            There's a difference between a want and a need<br>
-            Some nights, I just want more than me<br>
-            I know that there's a fine line between<br>
-            It's not what I need, but (Yeah)<br>
-            I want a boyfriend<br>
-            But I just keep hitting dead ends<br>
-            Try to take a shortcut<br>
-            But I get cut again and again (Yeah)<br>
-            I want a boyfriend (Uh-huh)<br>
-            Tell me, are there any good ones left?<br>
-            I keep finding wrong ones<br>
-            But I want love again and again (Yeah)<br>
-            I want a boyfriend<br>
-            I want a boyfriend<br>
-            I could phone a friend<br>
-            Use a hotline or something<br>
-            But that won't get the job done (Uh-uh)<br>
-            'Cause every time I try (Yeah, yeah, yeah)<br>
-            Every time they lie (Uh, ooh-hoo)<br>
-            I get a little anti you and me<br>
-            There's a difference between a want and a need<br>
-            Some nights, I just want more than me<br>
-            I know that there's a fine line between<br>
-            It's not what I need, but (Ooh-hoo)<br>
-            I want a boyfriend<br>
-            But I just keep hitting dead ends<br>
-            Try to take a shortcut<br>
-            But I get cut again and again (Yeah, ooh)<br>
-            I want a boyfriend (Uh-huh)<br>
-            Tell me, are there any good ones left?<br>
-            I keep finding wrong ones<br>
-            But I want love again and again (Ha-ha-ha-ha)<br>
-            I want a boyfriend (Ah, ayy, yeah)<br>
-            I want a boyfriend (Ah, I try to)<br>
-            I want a (Ah, yeah)<br>
-            I want a boyfriend (Ah, yeah)<br>
-            I want a`
+            lyrics:`Shayad Kabhi Na Keh Sako May Tumko<br>
+            Kahe Bina Tum Smajh Lo Shayad<br>
+            Shayad Mere Khayal Me Tum Ek Din<br>
+            Milo Mujhe Khi Pe Gum Shayad<br>
+            
+            Jo Tum Na Ho<br>
+            Rhenge Hum Nhi<br>
+            Jo Tum Na Ho<br>
+            Rhenge Hum Nhi<br>
+            Na Chahiye Kuch Tumse Jyada<br>
+            Tumse Kam Nhi<br>
+            
+            Jo Tum Na Ho<br>
+            Tu Hum Bhi Hum Nhi<br>
+            Jo Tum Na Ho<br>
+            Tu Hum Bhi Hum<br>
+            Nhi Na Chahiye Kuch<br>
+            Tumse Jyada Tumse Kam Nhi
+            <br>
+            Aakho Ko Khwab Dena<br>
+            Khud Hi Sawal Karke<br>
+            Khud Hi Jwab Dena<br>
+            Teri Traf Se<br>
+            
+            Bin Kaam Kaam Krna<br>
+            Jana Khi Ho Chahe<br>
+            Har Baar Hi Gujrna<br>
+            Teri Traf Se
+            <br>
+            Ye Koshishe Tu Hongi Kam Nhi<br>
+            Ye Koshishe Tu Hongi Kam Nhi<br>
+            Na Chahiye Kuch Tumse Jyada<br>
+            Tumse Kam Nhi<br>
+            
+            Jo Tum Na Ho<br>
+            Rhenge Hum Nhi<br>
+            Jo Tum Na Ho<br>
+            Tu Hum Bhi Hum Nhi<br>
+            Na Chahiye Kuch Tumse Jyada<br>
+            Tumse Kam Nhi<br>
+            
+            Jo Tum Na Ho…
+            
+            <br>`
 
         }, {
-            name:"Look at her Now",
-            artist:"Selena Gomez ",
-            song_img:"https://i1.sndcdn.com/artworks-000661794634-2vk84j-t500x500.jpg",
+            name:"Butter ",
+            artist:"BTS ",
+            song_img:"https://upload.wikimedia.org/wikipedia/en/thumb/d/db/BTS_-_Butter.png/220px-BTS_-_Butter.png",
             
-            audio:"https://mp3.filmisongs.com/Look%20At%20Her%20Now%20Mp3%20Selena%20Gomez.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Butter - BTS.mp3",
             id:uuidv4(),
             color:['#BEADE4',
             '#472946'],
             active:false, 
-            lyrics:`They fell in love one summer<br>
-            A little too wild for each other<br>
-            Shiny till it wasn't<br>
-            Feels good till it doesn't<br>
+            lyrics:`[Verse 1: Jung Kook, V]<br>
+
+            Smooth like butter<br>
+            Like a criminal undercover<br>
+            Gon’ pop like trouble<br>
+            Breakin’ into your heart like that (Ooh)<br>
+            Cool shade stunner<br>
+            Yeah, I owe it all to my mother<br>
+            Hot like summer<br>
+            Yeah, I’m makin’ you sweat like that<br>
+            Break it down <br>[Pre-Chorus: Jin, RM] Oh, when I look in the mirror
+            I’ll melt your heart into two<br>
+            I got that superstar glow so (Ooh)<br>
+            Do the boogie like
             <br>
-            It was her first real lover<br>
-            His too till he had another<br>
-            Oh god when she found out<br>
-            Trust levels went way down<br>
+            [Chorus: Jung Kook, Jimin, V]<br>
             
-            Of course she was sad<br>
-            But now she's glad she dodged a bullet<br>
+            Side step, right, left to my beat<br>
+            High like the moon, rock with me, baby<br>
+            Know that I got that heat<br>
+            Let me show you ’cause talk is cheap<br>
+            Side step, right, left to my beat<br>
+            Get it, let it roll<br>
+            
+            [Verse 2: Jung Kook, V, Jin]<br>
+            
+            Smooth like butter<br>
+            Pull you in like no other<br>
+            Don’t need no Usher<br>
+            To remind me you got it bad<br>
+            Ain’t no other<br>
+            That can sweep you up like a robber<br>
+            Straight up, I got ya<br>
+            Makin’ you fall like that<br>
+            Break it down<br>
+            [Pre-Chorus: Jimin, RM] Oh, when I look in the mirror<br>
+            I’ll melt your heart into two<br>
+            I got that superstar glow so (Ooh)<br>
+            Do the boogie like<br>
             <br>
-            Took a few years<br>
-            To soak up the tears<br>
-            But look at her now<br>
-            Watch her go<br>
-            <br>
-            Mmm mmm mmm<br>
-            Look at her now<br>
-            Watch her go<br>
-            Mmm mmm mmm<br>
-            Wow<br>
-            Look at her now<br>
-            Mmm mmm mmm<br>
-            Look at her now<br>
-            Watch her go<br>
-            Mmm mmm mmm<br>
-            Wow<br>
-            Look at her now<br>
-            <br>
-            Fast nights that got him<br>
-            That new life was his problem<br>
-            Not saying she was perfect<br>
-            Still regrets that moment<br>
-            <br>
-            Like that night<br>
-            Wasn't wrong, wasn't right<br>
-            What a thing to be human<br>
-            Made her more of woman<br>
-            <br>
-            Of course she was sad<br>
-            But now she's glad she dodged a bullet<br>
-            <br>
-            Took a few years<br>
-            To soak up the tears<br>
-            But look at her now<br>
-            Watch her go<br>
-            <br>
-            Mmm mmm mmm<br>
-            Look at her now<br>
-            Watch her go<br>
-            Mmm mmm mmm<br>
-            Wow<br>
-            Look at her now<br>
-            Mmm mmm mmm<br>
-            Look at her now<br>
-            Watch her go<br>
-            Mmm mmm mmm<br>
-            Wow<br>
-            Look at her now<br>
-            <br>
-            Wow<br>
-            Look at her now<br>
-            <br>
-            Wow<br>
-            Look at her now<br>
-            <br>
-            She knows she'll find love<br>
-            Only if she wants it<br>
-            She knows she'll find love<br>
-            Uhh<br>
-            She knows she'll find love<br>
-            Only if she wants it<br>
-            She knows she'll find love<br>
-            On the up from the way down<br>
-            Look at her now<br>
-            <br>
-            Watch her go<br>
-            Mmm mmm<br>
-            Look at her now<br>
-            Ohhhhh<br>
-            She knows she'll find love<br>
-            Only if she wants it<br>
-            She knows she'll find love<br>
-            Look at her now yeah<br>
-            She knows she'll find love<br>
-            (She knows she will)<br>
-            Only if she wants it<br>
-            She knows she'll find love<br>
-            Wow<br>
-            <br>
-            Look at her now`
+            [Chorus: Jimin, Jin, Jung Kook]<br>
+            
+            Side step, right, left to my beat<br>
+            High like the moon, rock with me, baby<br>
+            Know that I got that heat<br>
+            Let me show you ’cause talk is cheap<br>
+            Side step, right, left to my beat<br>
+            Get it, let it roll<br> [Post-Chorus: Jimin] Get it, let it roll<br>
+            Get it, let it roll<br>
+            
+            [Verse 3: SUGA, RM]<br>
+            
+            Ice on my wrist, I’m the nice guy<br>
+            Got the right body and the right mind<br>
+            Rollin’ up to party, got the right vibe<br>
+            Smooth like (Butter), hate us (Love us)<br>
+            Fresh boy pull up and we lay low<br>
+            All the playas get movin’ when the bass low<br>
+            Got ARMY right behind us when we say so<br>
+            Let’s go<br>
+            
+            [Chorus: V, Jin, Jung Kook, Jimin]<br>
+            
+            Side step, right, left to my beat (Right, left to my beat)<br>
+            High like the moon, rock with me, baby<br>
+            Know that I got that heat<br>
+            Let me show you ’cause talk is cheap (You know that talk is cheap)<br>
+            Side step, right, left to my beat<br>
+            Get it, let it roll <br>[Post-Chorus: j-hope, RM, j-hope & RM, Jung Kook] <br>Smooth like (Butter), cool shade (Stunner)<br>
+            And you know we don’t stop<br>
+            Hot like (Summer), ain’t no (Bummer)<br>
+            You be like oh my god<br>
+            We gon’ make you rock and you say (Yeah)<br>
+            We gon’ make you bounce and you say (Yeah)<br>
+            Hotter? Sweeter! Cooler? Butter!<br>
+            Get it, let it roll<br>`
 
         }, {
             name:"We don't talk Anymore",
             artist:"Charlie Puth, Selena Gomez ",
             song_img:"https://m.media-amazon.com/images/M/MV5BOWQyYmJiOWUtNzkzYS00YWJlLWI5YjgtYTg4MjI0MmM1N2ZkXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
            
-            audio:"https://mp3.filmisongs.com/We%20Dont%20Talk%20Anymore%20-%20Charlie%20Puth,%20Selena%20Gomez.mp3",
+            audio:"https://mp3.filmisongs.com/go.php?id=Charlie Puth - We Don't Talk Anymore Mp3 Song Download Ft Selena Gomez.mp3",
             id:uuidv4(),
             color:['#ccda51',
             '#B6C0CC'],
